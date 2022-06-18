@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195BBE94285D91AC0055C555 /* WongiToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBE93285D91AC0055C555 /* WongiToolsApp.swift */; };
+		195BBE96285D91AC0055C555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBE95285D91AC0055C555 /* ContentView.swift */; };
+		195BBE98285D91AE0055C555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BBE97285D91AE0055C555 /* Assets.xcassets */; };
+		195BBE9B285D91AE0055C555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BBE9A285D91AE0055C555 /* Preview Assets.xcassets */; };
+		195BBE9F285D91AE0055C555 /* WongiTools WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 195BBE9E285D91AE0055C555 /* WongiTools WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		195BBEA4285D91B00055C555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BBEA3285D91B00055C555 /* Assets.xcassets */; };
+		195BBEAA285D91B00055C555 /* WongiTools WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 195BBEA9285D91B00055C555 /* WongiTools WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		195BBEAF285D91B00055C555 /* WongiToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEAE285D91B00055C555 /* WongiToolsApp.swift */; };
+		195BBEB1285D91B00055C555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB0285D91B00055C555 /* ContentView.swift */; };
+		195BBEB3285D91B00055C555 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB2285D91B00055C555 /* NotificationController.swift */; };
+		195BBEB5285D91B00055C555 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB4285D91B00055C555 /* NotificationView.swift */; };
+		195BBEB7285D91B00055C555 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB6285D91B00055C555 /* ComplicationController.swift */; };
+		195BBEB9285D91B10055C555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BBEB8285D91B10055C555 /* Assets.xcassets */; };
+		195BBEBC285D91B10055C555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BBEBB285D91B10055C555 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		195BBEA0285D91AE0055C555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195BBE88285D91AC0055C555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195BBE9D285D91AE0055C555;
+			remoteInfo = "WongiTools WatchKit App";
+		};
+		195BBEAB285D91B00055C555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195BBE88285D91AC0055C555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195BBEA8285D91B00055C555;
+			remoteInfo = "WongiTools WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		195BBEC4285D91B10055C555 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				195BBEAA285D91B00055C555 /* WongiTools WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195BBEC8285D91B10055C555 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				195BBE9F285D91AE0055C555 /* WongiTools WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		195BBE90285D91AC0055C555 /* WongiTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WongiTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195BBE93285D91AC0055C555 /* WongiToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongiToolsApp.swift; sourceTree = "<group>"; };
+		195BBE95285D91AC0055C555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		195BBE97285D91AE0055C555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195BBE9A285D91AE0055C555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		195BBE9E285D91AE0055C555 /* WongiTools WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WongiTools WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		195BBEA3285D91B00055C555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195BBEA9285D91B00055C555 /* WongiTools WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WongiTools WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		195BBEAE285D91B00055C555 /* WongiToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongiToolsApp.swift; sourceTree = "<group>"; };
+		195BBEB0285D91B00055C555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		195BBEB2285D91B00055C555 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		195BBEB4285D91B00055C555 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		195BBEB6285D91B00055C555 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		195BBEB8285D91B10055C555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195BBEBB285D91B10055C555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		195BBEBD285D91B10055C555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195BBEBE285D91B10055C555 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195BBE8D285D91AC0055C555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195BBEA6285D91B00055C555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195BBE87285D91AC0055C555 = {
+			isa = PBXGroup;
+			children = (
+				195BBE92285D91AC0055C555 /* WongiTools */,
+				195BBEA2285D91AE0055C555 /* WongiTools WatchKit App */,
+				195BBEAD285D91B00055C555 /* WongiTools WatchKit Extension */,
+				195BBE91285D91AC0055C555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		195BBE91285D91AC0055C555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195BBE90285D91AC0055C555 /* WongiTools.app */,
+				195BBE9E285D91AE0055C555 /* WongiTools WatchKit App.app */,
+				195BBEA9285D91B00055C555 /* WongiTools WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195BBE92285D91AC0055C555 /* WongiTools */ = {
+			isa = PBXGroup;
+			children = (
+				195BBE93285D91AC0055C555 /* WongiToolsApp.swift */,
+				195BBE95285D91AC0055C555 /* ContentView.swift */,
+				195BBE97285D91AE0055C555 /* Assets.xcassets */,
+				195BBE99285D91AE0055C555 /* Preview Content */,
+			);
+			path = WongiTools;
+			sourceTree = "<group>";
+		};
+		195BBE99285D91AE0055C555 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				195BBE9A285D91AE0055C555 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		195BBEA2285D91AE0055C555 /* WongiTools WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				195BBEA3285D91B00055C555 /* Assets.xcassets */,
+			);
+			path = "WongiTools WatchKit App";
+			sourceTree = "<group>";
+		};
+		195BBEAD285D91B00055C555 /* WongiTools WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				195BBEAE285D91B00055C555 /* WongiToolsApp.swift */,
+				195BBEB0285D91B00055C555 /* ContentView.swift */,
+				195BBEB2285D91B00055C555 /* NotificationController.swift */,
+				195BBEB4285D91B00055C555 /* NotificationView.swift */,
+				195BBEB6285D91B00055C555 /* ComplicationController.swift */,
+				195BBEB8285D91B10055C555 /* Assets.xcassets */,
+				195BBEBD285D91B10055C555 /* Info.plist */,
+				195BBEBE285D91B10055C555 /* PushNotificationPayload.apns */,
+				195BBEBA285D91B10055C555 /* Preview Content */,
+			);
+			path = "WongiTools WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		195BBEBA285D91B10055C555 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				195BBEBB285D91B10055C555 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		195BBE8F285D91AC0055C555 /* WongiTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195BBEC9285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools" */;
+			buildPhases = (
+				195BBE8C285D91AC0055C555 /* Sources */,
+				195BBE8D285D91AC0055C555 /* Frameworks */,
+				195BBE8E285D91AC0055C555 /* Resources */,
+				195BBEC8285D91B10055C555 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195BBEA1285D91AE0055C555 /* PBXTargetDependency */,
+			);
+			name = WongiTools;
+			productName = WongiTools;
+			productReference = 195BBE90285D91AC0055C555 /* WongiTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		195BBE9D285D91AE0055C555 /* WongiTools WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195BBEC5285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools WatchKit App" */;
+			buildPhases = (
+				195BBE9C285D91AE0055C555 /* Resources */,
+				195BBEC4285D91B10055C555 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195BBEAC285D91B00055C555 /* PBXTargetDependency */,
+			);
+			name = "WongiTools WatchKit App";
+			productName = "WongiTools WatchKit App";
+			productReference = 195BBE9E285D91AE0055C555 /* WongiTools WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		195BBEA8285D91B00055C555 /* WongiTools WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195BBEC1285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools WatchKit Extension" */;
+			buildPhases = (
+				195BBEA5285D91B00055C555 /* Sources */,
+				195BBEA6285D91B00055C555 /* Frameworks */,
+				195BBEA7285D91B00055C555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WongiTools WatchKit Extension";
+			productName = "WongiTools WatchKit Extension";
+			productReference = 195BBEA9285D91B00055C555 /* WongiTools WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195BBE88285D91AC0055C555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					195BBE8F285D91AC0055C555 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					195BBE9D285D91AE0055C555 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					195BBEA8285D91B00055C555 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 195BBE8B285D91AC0055C555 /* Build configuration list for PBXProject "WongiTools" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 195BBE87285D91AC0055C555;
+			productRefGroup = 195BBE91285D91AC0055C555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195BBE8F285D91AC0055C555 /* WongiTools */,
+				195BBE9D285D91AE0055C555 /* WongiTools WatchKit App */,
+				195BBEA8285D91B00055C555 /* WongiTools WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195BBE8E285D91AC0055C555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195BBE9B285D91AE0055C555 /* Preview Assets.xcassets in Resources */,
+				195BBE98285D91AE0055C555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195BBE9C285D91AE0055C555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195BBEA4285D91B00055C555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195BBEA7285D91B00055C555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195BBEBC285D91B10055C555 /* Preview Assets.xcassets in Resources */,
+				195BBEB9285D91B10055C555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195BBE8C285D91AC0055C555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195BBE96285D91AC0055C555 /* ContentView.swift in Sources */,
+				195BBE94285D91AC0055C555 /* WongiToolsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195BBEA5285D91B00055C555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195BBEB3285D91B00055C555 /* NotificationController.swift in Sources */,
+				195BBEB1285D91B00055C555 /* ContentView.swift in Sources */,
+				195BBEB7285D91B00055C555 /* ComplicationController.swift in Sources */,
+				195BBEAF285D91B00055C555 /* WongiToolsApp.swift in Sources */,
+				195BBEB5285D91B00055C555 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		195BBEA1285D91AE0055C555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195BBE9D285D91AE0055C555 /* WongiTools WatchKit App */;
+			targetProxy = 195BBEA0285D91AE0055C555 /* PBXContainerItemProxy */;
+		};
+		195BBEAC285D91B00055C555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195BBEA8285D91B00055C555 /* WongiTools WatchKit Extension */;
+			targetProxy = 195BBEAB285D91B00055C555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		195BBEBF285D91B10055C555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		195BBEC0285D91B10055C555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		195BBEC2285D91B10055C555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WongiTools WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = PSS9ZU5D9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WongiTools WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WongiTools WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		195BBEC3285D91B10055C555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WongiTools WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = PSS9ZU5D9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WongiTools WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WongiTools WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		195BBEC6285D91B10055C555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSS9ZU5D9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WongiTools_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "WongiTools WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.tokodori.WongiTools;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		195BBEC7285D91B10055C555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSS9ZU5D9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WongiTools_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "WongiTools WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.tokodori.WongiTools;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		195BBECA285D91B10055C555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WongiTools/Preview Content\"";
+				DEVELOPMENT_TEAM = PSS9ZU5D9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		195BBECB285D91B10055C555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WongiTools/Preview Content\"";
+				DEVELOPMENT_TEAM = PSS9ZU5D9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195BBE8B285D91AC0055C555 /* Build configuration list for PBXProject "WongiTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195BBEBF285D91B10055C555 /* Debug */,
+				195BBEC0285D91B10055C555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195BBEC1285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195BBEC2285D91B10055C555 /* Debug */,
+				195BBEC3285D91B10055C555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195BBEC5285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195BBEC6285D91B10055C555 /* Debug */,
+				195BBEC7285D91B10055C555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195BBEC9285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195BBECA285D91B10055C555 /* Debug */,
+				195BBECB285D91B10055C555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 195BBE88285D91AC0055C555 /* Project object */;
+}
