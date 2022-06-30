@@ -37,7 +37,7 @@ class WTServerProve: ObservableObject {
     var address: WTAddress {
         get { return _address }
         set {
-            self.address = newValue
+            self._address = newValue
             if let cachedStatus = WTServerProveCache.shared.get(forKey: address.description) {
                 self.status = cachedStatus
                 self._isStale = true;

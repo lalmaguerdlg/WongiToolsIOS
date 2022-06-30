@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct PhoneSessionStatusCircle: View {
+    @ObservedObject var phoneSessionManager = PhoneSessionManager.shared
+    var isOk: Bool {
+        phoneSessionManager.isReachable
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        PulseCircle(fill: isOk ? .green : .red, animate: isOk)
     }
 }
 

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct StartView: View {
+    @StateObject private var viewModel = WongiToolsAppViewModel()
     @State private var selection: Tab = .controls
     enum Tab {
         case controls, metrics
@@ -15,8 +16,17 @@ struct StartView: View {
     
     var body: some View {
         TabView(selection: $selection) {
-            Controls().tag(Tab.controls)
-            Text("Metrics").tag(Tab.metrics)
+            ControlsView(tabSelection: $selection).tag(Tab.controls)
+            MetricsView().tag(Tab.metrics)
+        }
+        .animation(.easeOut(duration: 0.2), value: selection)
+        .environmentObject(viewModel.workoutManager)
+        .environmentObject(viewModel.watchSessionManager)
+        .onAppear {
+            WorkoutManager.authorizeHealthKit()
+            if viewModel.workoutManager.running {
+                selection = .metrics
+            }
         }
     }
 }

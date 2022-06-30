@@ -8,34 +8,46 @@
 import Foundation
 
 final class PhoneViewModel: ObservableObject {
+    @Published var heartRate: Double = 0.0
+    
     struct Dependencies {
-        var workoutManager: WorkoutManager = WorkoutManager.shared
-        var watchSessionManager: WatchSessionManager = WatchSessionManager.shared
-        var sendHeartRate: SendHeartRate = SendHeartRateAdapter()
+        var wtServerService = WTServerService.shared
+        var phoneSessionManager: PhoneSessionManager = PhoneSessionManager.shared
+        var sendHeartRate: SendHeartRateWTServerAdapter = SendHeartRateWTServerAdapter()
+        var sendWatchStopSignal: SendWatchStopSignal = SendWatchStopSignalAdapter()
     }
     
     private let dependencies: Dependencies
     
-    var workoutManager: WorkoutManager {
+    var wtServerService: WTServerService {
         get {
-            return dependencies.workoutManager
+            return dependencies.wtServerService
         }
     }
-    
-    var watchSessionManager: WatchSessionManager {
+    var phoneSessionManager: PhoneSessionManager {
         get {
-            return dependencies.watchSessionManager
+            return dependencies.phoneSessionManager
         }
     }
     
     init(dependencies: Dependencies = .init()) {
         self.dependencies = dependencies
-        self.dependencies.workoutManager.delegate = self
+        self.dependencies.phoneSessionManager.delegate = self
+        self.dependencies.wtServerService.delegate = self
     }
 }
 
-extension WongiToolsAppViewModel: WorkoutManagerDelegate {
-    func didReceiveHKHeartRate(_ heartRate: Double) {
+extension PhoneViewModel: PhoneSessionManagerDelegate {
+    func didReceiveHeartRate(_ heartRate: Double) {
+        DispatchQueue.main.async {
+            self.heartRate = heartRate
+        }
         self.dependencies.sendHeartRate.execute(heartRate)
+    }
+}
+
+extension PhoneViewModel: WTServerServiceDelegate {
+    func didReachMaxAttepts(attempts: Int, maxAttempts: Int) {
+        self.dependencies.sendWatchStopSignal.execute(true);
     }
 }

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct WatchConnectivityConstants {
+    static let heartRate = "com.lalmaguer.WongiTools.heart-rate"
+    static let stopSession = "com.lalmaguer.WongiTools.stop-session"
+}

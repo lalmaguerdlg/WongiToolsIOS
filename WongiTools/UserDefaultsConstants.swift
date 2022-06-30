@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct UserDefaultConstants {
+    //static let remoteConfig = "WongiTools.remote-config"
+    static let WTServerIP = "WongiTools.remote-ip"
+    static let WTServerPort = "WongiTools.remote-port"
+}

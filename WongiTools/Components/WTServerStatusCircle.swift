@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct WTServerStatusCircle: View {
+    var status: WTServerStatus = .unknown
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if status == .proving {
+            PulseCircle(fill: .blue, animate: true)
+        } else if status == .alive {
+            PulseCircle(fill: .green, animate: true)
+        } else if status == .idle {
+            PulseCircle(fill: .yellow, animate: true)
+        } else if status == .dead {
+            PulseCircle(fill: .red)
+        } else {
+            PulseCircle(fill: .gray)
+        }
     }
 }
 

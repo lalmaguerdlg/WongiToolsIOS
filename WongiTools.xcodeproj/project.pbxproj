@@ -15,12 +15,46 @@
 		195BBEA4285D91B00055C555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BBEA3285D91B00055C555 /* Assets.xcassets */; };
 		195BBEAA285D91B00055C555 /* WongiTools WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 195BBEA9285D91B00055C555 /* WongiTools WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		195BBEAF285D91B00055C555 /* WongiToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEAE285D91B00055C555 /* WongiToolsApp.swift */; };
-		195BBEB1285D91B00055C555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB0285D91B00055C555 /* ContentView.swift */; };
+		195BBEB1285D91B00055C555 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB0285D91B00055C555 /* StartView.swift */; };
 		195BBEB3285D91B00055C555 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB2285D91B00055C555 /* NotificationController.swift */; };
 		195BBEB5285D91B00055C555 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB4285D91B00055C555 /* NotificationView.swift */; };
 		195BBEB7285D91B00055C555 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBEB6285D91B00055C555 /* ComplicationController.swift */; };
 		195BBEB9285D91B10055C555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BBEB8285D91B10055C555 /* Assets.xcassets */; };
 		195BBEBC285D91B10055C555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195BBEBB285D91B10055C555 /* Preview Assets.xcassets */; };
+		195BBED0285D931C0055C555 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BBECF285D931C0055C555 /* ControlsView.swift */; };
+		1981A61228691272009B361E /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A61128691272009B361E /* StatusView.swift */; };
+		1981A61428691280009B361E /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A61328691280009B361E /* ConfigView.swift */; };
+		1981A61A286923A3009B361E /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A619286923A3009B361E /* AppBackground.swift */; };
+		1981A61D286940C2009B361E /* WTServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A61C286940C2009B361E /* WTServerService.swift */; };
+		1981A61F286941D1009B361E /* UserDefaultsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A61E286941D1009B361E /* UserDefaultsConstants.swift */; };
+		1981A62228697120009B361E /* TestConnectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A62128697120009B361E /* TestConnectionButton.swift */; };
+		1981A62428697C7F009B361E /* WTServerProve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A62328697C7F009B361E /* WTServerProve.swift */; };
+		1981A6262869810C009B361E /* PulseCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A6252869810C009B361E /* PulseCircle.swift */; };
+		1981A6282869850E009B361E /* WTServerStatusCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A6272869850E009B361E /* WTServerStatusCircle.swift */; };
+		1981A62A28699C49009B361E /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A62928699C49009B361E /* PhoneViewModel.swift */; };
+		1981A62D28699ED6009B361E /* SendHeartRateWTServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981A62C28699ED6009B361E /* SendHeartRateWTServer.swift */; };
+		19828A34286A10AA00A22B32 /* WTServerFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19828A33286A10AA00A22B32 /* WTServerFinder.swift */; };
+		19AFB101286802E7004A086C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AFB100286802E7004A086C /* HealthKit.framework */; };
+		19AFB1042868031D004A086C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AFB1032868031D004A086C /* HealthKit.framework */; };
+		19AFB10628680D22004A086C /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB10528680D22004A086C /* MetricsView.swift */; };
+		19AFB10828681747004A086C /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB10728681747004A086C /* ElapsedTimeView.swift */; };
+		19AFB10A28683716004A086C /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB10928683716004A086C /* WorkoutManager.swift */; };
+		19AFB10C2868592B004A086C /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB10B2868592B004A086C /* WatchSessionManager.swift */; };
+		19AFB10F28685CC7004A086C /* WatchConnectivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB10E28685CC7004A086C /* WatchConnectivityConstants.swift */; };
+		19AFB11028685CC7004A086C /* WatchConnectivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB10E28685CC7004A086C /* WatchConnectivityConstants.swift */; };
+		19AFB11428685F38004A086C /* SendHeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB11228685F38004A086C /* SendHeartRate.swift */; };
+		19AFB1162868616B004A086C /* WongiToolsAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB1152868616B004A086C /* WongiToolsAppViewModel.swift */; };
+		19AFB118286862C6004A086C /* PhoneSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB117286862C6004A086C /* PhoneSessionManager.swift */; };
+		19AFB11B286868C5004A086C /* WatchConnectivityStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFB11A286868C5004A086C /* WatchConnectivityStatus.swift */; };
+		19F0FB382869EDFE00D0B82E /* PulsingHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0FB372869EDFE00D0B82E /* PulsingHeart.swift */; };
+		19F0FB3A2869EF4000D0B82E /* PhoneSessionStatusCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0FB392869EF4000D0B82E /* PhoneSessionStatusCircle.swift */; };
+		19F0FB3E2869FE6C00D0B82E /* StopWorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0FB3D2869FE6C00D0B82E /* StopWorkoutSession.swift */; };
+		19F0FB41286A026F00D0B82E /* WTAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0FB40286A026F00D0B82E /* WTAddress.swift */; };
+		19F0FB43286A029300D0B82E /* WTServerStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0FB42286A029300D0B82E /* WTServerStatus.swift */; };
+		19F0FB45286A03E700D0B82E /* SendWatchStopSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0FB44286A03E700D0B82E /* SendWatchStopSignal.swift */; };
+		7E214BE6B1FA445D33025EBD /* Pods_WongiTools_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00F39C683B2DA4C6F02369D /* Pods_WongiTools_WatchKit_Extension.framework */; };
+		AA83BBCE2DF79930E8E7CCF4 /* Pods_WongiTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1004290F7EB4681320610B81 /* Pods_WongiTools.framework */; };
+		F159ED80045582B4473CD358 /* Pods_WongiTools_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B84A1948333F75926C3E933 /* Pods_WongiTools_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +100,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1004290F7EB4681320610B81 /* Pods_WongiTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongiTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		195BBE90285D91AC0055C555 /* WongiTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WongiTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195BBE93285D91AC0055C555 /* WongiToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongiToolsApp.swift; sourceTree = "<group>"; };
 		195BBE95285D91AC0055C555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,7 +110,7 @@
 		195BBEA3285D91B00055C555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195BBEA9285D91B00055C555 /* WongiTools WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WongiTools WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		195BBEAE285D91B00055C555 /* WongiToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongiToolsApp.swift; sourceTree = "<group>"; };
-		195BBEB0285D91B00055C555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		195BBEB0285D91B00055C555 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		195BBEB2285D91B00055C555 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		195BBEB4285D91B00055C555 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		195BBEB6285D91B00055C555 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -83,6 +118,47 @@
 		195BBEBB285D91B10055C555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		195BBEBD285D91B10055C555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		195BBEBE285D91B10055C555 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		195BBECF285D931C0055C555 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		1981A61128691272009B361E /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		1981A61328691280009B361E /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		1981A619286923A3009B361E /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
+		1981A61C286940C2009B361E /* WTServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTServerService.swift; sourceTree = "<group>"; };
+		1981A61E286941D1009B361E /* UserDefaultsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsConstants.swift; sourceTree = "<group>"; };
+		1981A62128697120009B361E /* TestConnectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConnectionButton.swift; sourceTree = "<group>"; };
+		1981A62328697C7F009B361E /* WTServerProve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTServerProve.swift; sourceTree = "<group>"; };
+		1981A6252869810C009B361E /* PulseCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseCircle.swift; sourceTree = "<group>"; };
+		1981A6272869850E009B361E /* WTServerStatusCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTServerStatusCircle.swift; sourceTree = "<group>"; };
+		1981A62928699C49009B361E /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		1981A62C28699ED6009B361E /* SendHeartRateWTServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHeartRateWTServer.swift; sourceTree = "<group>"; };
+		19828A33286A10AA00A22B32 /* WTServerFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTServerFinder.swift; sourceTree = "<group>"; };
+		19AFB0FD28680280004A086C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		19AFB0FE286802E6004A086C /* WongiTools WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WongiTools WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		19AFB100286802E7004A086C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		19AFB1022868031D004A086C /* WongiTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WongiTools.entitlements; sourceTree = "<group>"; };
+		19AFB1032868031D004A086C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		19AFB10528680D22004A086C /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		19AFB10728681747004A086C /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		19AFB10928683716004A086C /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		19AFB10B2868592B004A086C /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		19AFB10E28685CC7004A086C /* WatchConnectivityConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityConstants.swift; sourceTree = "<group>"; };
+		19AFB11228685F38004A086C /* SendHeartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHeartRate.swift; sourceTree = "<group>"; };
+		19AFB1152868616B004A086C /* WongiToolsAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WongiToolsAppViewModel.swift; sourceTree = "<group>"; };
+		19AFB117286862C6004A086C /* PhoneSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSessionManager.swift; sourceTree = "<group>"; };
+		19AFB11A286868C5004A086C /* WatchConnectivityStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityStatus.swift; sourceTree = "<group>"; };
+		19F0FB372869EDFE00D0B82E /* PulsingHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingHeart.swift; sourceTree = "<group>"; };
+		19F0FB392869EF4000D0B82E /* PhoneSessionStatusCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSessionStatusCircle.swift; sourceTree = "<group>"; };
+		19F0FB3D2869FE6C00D0B82E /* StopWorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWorkoutSession.swift; sourceTree = "<group>"; };
+		19F0FB40286A026F00D0B82E /* WTAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTAddress.swift; sourceTree = "<group>"; };
+		19F0FB42286A029300D0B82E /* WTServerStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTServerStatus.swift; sourceTree = "<group>"; };
+		19F0FB44286A03E700D0B82E /* SendWatchStopSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendWatchStopSignal.swift; sourceTree = "<group>"; };
+		2F3095137C5E5D3B7302BFBB /* Pods-WongiTools WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongiTools WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-WongiTools WatchKit App/Pods-WongiTools WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		3C995207A8D2DC2819F79EB4 /* Pods-WongiTools WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongiTools WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-WongiTools WatchKit Extension/Pods-WongiTools WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4B363201EB3A85015A61B3 /* Pods-WongiTools WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongiTools WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-WongiTools WatchKit Extension/Pods-WongiTools WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		4B84A1948333F75926C3E933 /* Pods_WongiTools_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongiTools_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEAD07855D110FF324FB222 /* Pods-WongiTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongiTools.debug.xcconfig"; path = "Target Support Files/Pods-WongiTools/Pods-WongiTools.debug.xcconfig"; sourceTree = "<group>"; };
+		78D218DA31133CE584315E73 /* Pods-WongiTools WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongiTools WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-WongiTools WatchKit App/Pods-WongiTools WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		A43911FD08A4655240D36484 /* Pods-WongiTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongiTools.release.xcconfig"; path = "Target Support Files/Pods-WongiTools/Pods-WongiTools.release.xcconfig"; sourceTree = "<group>"; };
+		F00F39C683B2DA4C6F02369D /* Pods_WongiTools_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongiTools_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +166,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AFB1042868031D004A086C /* HealthKit.framework in Frameworks */,
+				AA83BBCE2DF79930E8E7CCF4 /* Pods_WongiTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +175,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AFB101286802E7004A086C /* HealthKit.framework in Frameworks */,
+				7E214BE6B1FA445D33025EBD /* Pods_WongiTools_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9DF98F3639A1EC96709812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F159ED80045582B4473CD358 /* Pods_WongiTools_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,10 +194,13 @@
 		195BBE87285D91AC0055C555 = {
 			isa = PBXGroup;
 			children = (
+				19AFB10D28685CB2004A086C /* Shared */,
 				195BBE92285D91AC0055C555 /* WongiTools */,
 				195BBEA2285D91AE0055C555 /* WongiTools WatchKit App */,
 				195BBEAD285D91B00055C555 /* WongiTools WatchKit Extension */,
 				195BBE91285D91AC0055C555 /* Products */,
+				19AFB0FF286802E7004A086C /* Frameworks */,
+				894E2FE9826E02F7191E238C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,10 +217,20 @@
 		195BBE92285D91AC0055C555 /* WongiTools */ = {
 			isa = PBXGroup;
 			children = (
+				19F0FB3F286A026100D0B82E /* WTServer */,
+				1981A62B28699EC0009B361E /* Use Cases */,
+				1981A6202869710C009B361E /* Components */,
+				1981A61B286940A6009B361E /* Services */,
+				1981A61828692391009B361E /* Modifiers */,
+				1981A61028690B1E009B361E /* Views */,
+				19AFB1022868031D004A086C /* WongiTools.entitlements */,
+				19AFB0FD28680280004A086C /* Info.plist */,
 				195BBE93285D91AC0055C555 /* WongiToolsApp.swift */,
-				195BBE95285D91AC0055C555 /* ContentView.swift */,
 				195BBE97285D91AE0055C555 /* Assets.xcassets */,
 				195BBE99285D91AE0055C555 /* Preview Content */,
+				19AFB117286862C6004A086C /* PhoneSessionManager.swift */,
+				1981A61E286941D1009B361E /* UserDefaultsConstants.swift */,
+				1981A62928699C49009B361E /* PhoneViewModel.swift */,
 			);
 			path = WongiTools;
 			sourceTree = "<group>";
@@ -153,8 +254,11 @@
 		195BBEAD285D91B00055C555 /* WongiTools WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				19AFB119286868AF004A086C /* Components */,
+				19AFB11128685F1D004A086C /* Use Cases */,
+				19AFB0FE286802E6004A086C /* WongiTools WatchKit Extension.entitlements */,
+				195BBECC285D92E60055C555 /* Views */,
 				195BBEAE285D91B00055C555 /* WongiToolsApp.swift */,
-				195BBEB0285D91B00055C555 /* ContentView.swift */,
 				195BBEB2285D91B00055C555 /* NotificationController.swift */,
 				195BBEB4285D91B00055C555 /* NotificationView.swift */,
 				195BBEB6285D91B00055C555 /* ComplicationController.swift */,
@@ -162,6 +266,9 @@
 				195BBEBD285D91B10055C555 /* Info.plist */,
 				195BBEBE285D91B10055C555 /* PushNotificationPayload.apns */,
 				195BBEBA285D91B10055C555 /* Preview Content */,
+				19AFB10928683716004A086C /* WorkoutManager.swift */,
+				19AFB10B2868592B004A086C /* WatchSessionManager.swift */,
+				19AFB1152868616B004A086C /* WongiToolsAppViewModel.swift */,
 			);
 			path = "WongiTools WatchKit Extension";
 			sourceTree = "<group>";
@@ -174,6 +281,125 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		195BBECC285D92E60055C555 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				195BBEB0285D91B00055C555 /* StartView.swift */,
+				195BBECF285D931C0055C555 /* ControlsView.swift */,
+				19AFB10528680D22004A086C /* MetricsView.swift */,
+				19AFB10728681747004A086C /* ElapsedTimeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1981A61028690B1E009B361E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				195BBE95285D91AC0055C555 /* ContentView.swift */,
+				1981A61128691272009B361E /* StatusView.swift */,
+				1981A61328691280009B361E /* ConfigView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1981A61828692391009B361E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1981A619286923A3009B361E /* AppBackground.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		1981A61B286940A6009B361E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1981A61C286940C2009B361E /* WTServerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1981A6202869710C009B361E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1981A62128697120009B361E /* TestConnectionButton.swift */,
+				1981A6252869810C009B361E /* PulseCircle.swift */,
+				1981A6272869850E009B361E /* WTServerStatusCircle.swift */,
+				19F0FB372869EDFE00D0B82E /* PulsingHeart.swift */,
+				19F0FB392869EF4000D0B82E /* PhoneSessionStatusCircle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1981A62B28699EC0009B361E /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				1981A62C28699ED6009B361E /* SendHeartRateWTServer.swift */,
+				19F0FB44286A03E700D0B82E /* SendWatchStopSignal.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		19AFB0FF286802E7004A086C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19AFB1032868031D004A086C /* HealthKit.framework */,
+				19AFB100286802E7004A086C /* HealthKit.framework */,
+				1004290F7EB4681320610B81 /* Pods_WongiTools.framework */,
+				4B84A1948333F75926C3E933 /* Pods_WongiTools_WatchKit_App.framework */,
+				F00F39C683B2DA4C6F02369D /* Pods_WongiTools_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19AFB10D28685CB2004A086C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				19AFB10E28685CC7004A086C /* WatchConnectivityConstants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		19AFB11128685F1D004A086C /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				19AFB11228685F38004A086C /* SendHeartRate.swift */,
+				19F0FB3D2869FE6C00D0B82E /* StopWorkoutSession.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		19AFB119286868AF004A086C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				19AFB11A286868C5004A086C /* WatchConnectivityStatus.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		19F0FB3F286A026100D0B82E /* WTServer */ = {
+			isa = PBXGroup;
+			children = (
+				1981A62328697C7F009B361E /* WTServerProve.swift */,
+				19F0FB40286A026F00D0B82E /* WTAddress.swift */,
+				19F0FB42286A029300D0B82E /* WTServerStatus.swift */,
+				19828A33286A10AA00A22B32 /* WTServerFinder.swift */,
+			);
+			path = WTServer;
+			sourceTree = "<group>";
+		};
+		894E2FE9826E02F7191E238C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EEAD07855D110FF324FB222 /* Pods-WongiTools.debug.xcconfig */,
+				A43911FD08A4655240D36484 /* Pods-WongiTools.release.xcconfig */,
+				78D218DA31133CE584315E73 /* Pods-WongiTools WatchKit App.debug.xcconfig */,
+				2F3095137C5E5D3B7302BFBB /* Pods-WongiTools WatchKit App.release.xcconfig */,
+				3C995207A8D2DC2819F79EB4 /* Pods-WongiTools WatchKit Extension.debug.xcconfig */,
+				4A4B363201EB3A85015A61B3 /* Pods-WongiTools WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,10 +407,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195BBEC9285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools" */;
 			buildPhases = (
+				C725509A4B91C8085DF61031 /* [CP] Check Pods Manifest.lock */,
 				195BBE8C285D91AC0055C555 /* Sources */,
 				195BBE8D285D91AC0055C555 /* Frameworks */,
 				195BBE8E285D91AC0055C555 /* Resources */,
 				195BBEC8285D91B10055C555 /* Embed Watch Content */,
+				4150364034D7234706857EBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,8 +428,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195BBEC5285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools WatchKit App" */;
 			buildPhases = (
+				FB5E3B1630EC0D4B7493AEAA /* [CP] Check Pods Manifest.lock */,
 				195BBE9C285D91AE0055C555 /* Resources */,
 				195BBEC4285D91B10055C555 /* Embed App Extensions */,
+				3C9DF98F3639A1EC96709812 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +447,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195BBEC1285D91B10055C555 /* Build configuration list for PBXNativeTarget "WongiTools WatchKit Extension" */;
 			buildPhases = (
+				4B60914CDEEDB312ACCAD3E2 /* [CP] Check Pods Manifest.lock */,
 				195BBEA5285D91B00055C555 /* Sources */,
 				195BBEA6285D91B00055C555 /* Frameworks */,
 				195BBEA7285D91B00055C555 /* Resources */,
@@ -300,13 +531,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4150364034D7234706857EBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WongiTools/Pods-WongiTools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WongiTools/Pods-WongiTools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WongiTools/Pods-WongiTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B60914CDEEDB312ACCAD3E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WongiTools WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C725509A4B91C8085DF61031 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WongiTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5E3B1630EC0D4B7493AEAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WongiTools WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		195BBE8C285D91AC0055C555 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1981A61428691280009B361E /* ConfigView.swift in Sources */,
+				19F0FB45286A03E700D0B82E /* SendWatchStopSignal.swift in Sources */,
+				19AFB10F28685CC7004A086C /* WatchConnectivityConstants.swift in Sources */,
+				19AFB118286862C6004A086C /* PhoneSessionManager.swift in Sources */,
+				19F0FB382869EDFE00D0B82E /* PulsingHeart.swift in Sources */,
+				1981A6282869850E009B361E /* WTServerStatusCircle.swift in Sources */,
+				19F0FB41286A026F00D0B82E /* WTAddress.swift in Sources */,
+				1981A61D286940C2009B361E /* WTServerService.swift in Sources */,
+				19F0FB3A2869EF4000D0B82E /* PhoneSessionStatusCircle.swift in Sources */,
+				1981A61A286923A3009B361E /* AppBackground.swift in Sources */,
 				195BBE96285D91AC0055C555 /* ContentView.swift in Sources */,
+				19F0FB43286A029300D0B82E /* WTServerStatus.swift in Sources */,
 				195BBE94285D91AC0055C555 /* WongiToolsApp.swift in Sources */,
+				1981A6262869810C009B361E /* PulseCircle.swift in Sources */,
+				1981A62428697C7F009B361E /* WTServerProve.swift in Sources */,
+				19828A34286A10AA00A22B32 /* WTServerFinder.swift in Sources */,
+				1981A61228691272009B361E /* StatusView.swift in Sources */,
+				1981A61F286941D1009B361E /* UserDefaultsConstants.swift in Sources */,
+				1981A62228697120009B361E /* TestConnectionButton.swift in Sources */,
+				1981A62A28699C49009B361E /* PhoneViewModel.swift in Sources */,
+				1981A62D28699ED6009B361E /* SendHeartRateWTServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,10 +650,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AFB11B286868C5004A086C /* WatchConnectivityStatus.swift in Sources */,
+				19AFB11428685F38004A086C /* SendHeartRate.swift in Sources */,
+				19AFB10828681747004A086C /* ElapsedTimeView.swift in Sources */,
 				195BBEB3285D91B00055C555 /* NotificationController.swift in Sources */,
-				195BBEB1285D91B00055C555 /* ContentView.swift in Sources */,
+				19AFB11028685CC7004A086C /* WatchConnectivityConstants.swift in Sources */,
+				19AFB10A28683716004A086C /* WorkoutManager.swift in Sources */,
+				19AFB10628680D22004A086C /* MetricsView.swift in Sources */,
+				19AFB10C2868592B004A086C /* WatchSessionManager.swift in Sources */,
+				195BBEB1285D91B00055C555 /* StartView.swift in Sources */,
 				195BBEB7285D91B00055C555 /* ComplicationController.swift in Sources */,
 				195BBEAF285D91B00055C555 /* WongiToolsApp.swift in Sources */,
+				195BBED0285D931C0055C555 /* ControlsView.swift in Sources */,
+				19AFB1162868616B004A086C /* WongiToolsAppViewModel.swift in Sources */,
+				19F0FB3E2869FE6C00D0B82E /* StopWorkoutSession.swift in Sources */,
 				195BBEB5285D91B00055C555 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,8 +795,10 @@
 		};
 		195BBEC2285D91B10055C555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C995207A8D2DC2819F79EB4 /* Pods-WongiTools WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "WongiTools WatchKit Extension/WongiTools WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WongiTools WatchKit Extension/Preview Content\"";
@@ -459,7 +807,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WongiTools WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WongiTools WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WongiTools_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your health data";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +818,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalmaguer.WongiTools.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -481,8 +831,10 @@
 		};
 		195BBEC3285D91B10055C555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4B363201EB3A85015A61B3 /* Pods-WongiTools WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "WongiTools WatchKit Extension/WongiTools WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WongiTools WatchKit Extension/Preview Content\"";
@@ -491,7 +843,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WongiTools WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WongiTools WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WongiTools_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your health data";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,7 +854,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalmaguer.WongiTools.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -514,6 +868,7 @@
 		};
 		195BBEC6285D91B10055C555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D218DA31133CE584315E73 /* Pods-WongiTools WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -525,9 +880,9 @@
 				IBSC_MODULE = WongiTools_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "WongiTools WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.tokodori.WongiTools;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lalmaguer.WongiTools;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalmaguer.WongiTools.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -540,6 +895,7 @@
 		};
 		195BBEC7285D91B10055C555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3095137C5E5D3B7302BFBB /* Pods-WongiTools WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -551,9 +907,9 @@
 				IBSC_MODULE = WongiTools_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "WongiTools WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.tokodori.WongiTools;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.lalmaguer.WongiTools;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalmaguer.WongiTools.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -567,15 +923,19 @@
 		};
 		195BBECA285D91B10055C555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEAD07855D110FF324FB222 /* Pods-WongiTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WongiTools/WongiTools.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WongiTools/Preview Content\"";
 				DEVELOPMENT_TEAM = PSS9ZU5D9Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WongiTools/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "WongiTools uses the local network to send heart rate information to your overlay";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -587,7 +947,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalmaguer.WongiTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -598,15 +958,19 @@
 		};
 		195BBECB285D91B10055C555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43911FD08A4655240D36484 /* Pods-WongiTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WongiTools/WongiTools.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WongiTools/Preview Content\"";
 				DEVELOPMENT_TEAM = PSS9ZU5D9Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WongiTools/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "WongiTools uses the local network to send heart rate information to your overlay";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -618,7 +982,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.tokodori.WongiTools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalmaguer.WongiTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;

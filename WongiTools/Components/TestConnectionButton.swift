@@ -8,13 +8,31 @@
 import SwiftUI
 
 struct TestConnectionButton: View {
+    @ObservedObject var prove: WTServerProve
+    
+    var proveOnAppear: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            prove.execute()
+        } label: {
+            HStack {
+                Text("Test connection")
+                Spacer()
+                WTServerStatusCircle(status: prove.status)
+            }
+        }
+        .disabled(prove.status == .proving)
+        .onAppear {
+            if proveOnAppear && prove.status != .proving {
+                prove.execute()
+            }
+        }
     }
 }
 
 struct TestConnectionButton_Previews: PreviewProvider {
     static var previews: some View {
-        TestConnectionButton()
+        TestConnectionButton(prove: WTServerService.shared.getProve())
     }
 }

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum WTServerStatus {
+    case alive, dead, proving, idle, unknown
+}
